@@ -1,6 +1,6 @@
 // MultiStepForm.jsx
 
-import React, { useReducer } from "react";
+import  { useReducer } from "react";
 
 const initialState = {
   step: 1, // Start at step 1
