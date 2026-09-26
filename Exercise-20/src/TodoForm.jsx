@@ -23,7 +23,7 @@ const TodoForm = () => {
   };
 
   return (
-    <div className="flex w-[400px] gap-2">
+    <div className="flex w-112.5 gap-2">
       
       <input
         type="text"
