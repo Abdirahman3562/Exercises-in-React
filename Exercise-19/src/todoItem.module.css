@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+  padding: 15px;
+
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+}
+
+.todoContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.todoText {
+  cursor: pointer;
+}
+
+.completed {
+  cursor: pointer;
+  text-decoration: line-through;
+  color: #888;
+}
+
+.deleteBtn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(252, 0, 0);
+  cursor: pointer;
+}
